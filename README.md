@@ -301,7 +301,7 @@ If you want to modify error reports just before they are sent to Bugsnag, or pre
 you can add before notify callbacks:
 
 ```javascript
-Bugsnag.onBeforeNotify(function (notification) {
+bugsnag.onBeforeNotify(function (notification) {
 
     var metaData = notification.events[0].metaData;
 
